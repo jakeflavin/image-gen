@@ -15,10 +15,11 @@ const logger = {
         console.log(`DEBUG :  ${chalk.gray(msg)}`)
     },
 
-    appStarted: (interval) => {
+    appStarted: (interval, port) => {
         console.log(divider);
         console.log(`App started! ${chalk.green('✓')}`);
-        console.log(`Interval : ${chalk.green(interval)}`);
+        console.log(`Interval   : ${chalk.green(interval)}`);
+        console.log(`Port       : ${chalk.green(port)}`)
         console.log(divider);
     },
 };
