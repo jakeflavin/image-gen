@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "node -r dotenv/config index.js"
+    "start": "node -r dotenv/config index.js"
   },
   "keywords": [],
   "author": "Jake Flavin",
