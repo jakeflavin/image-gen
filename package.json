@@ -1,0 +1,20 @@
+{
+  "name": "image-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node -r dotenv/config index.js"
+  },
+  "keywords": [],
+  "author": "Jake Flavin",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "dotenv": "16.0.3",
+    "handlebars": "4.7.7",
+    "node-schedule": "2.1.0",
+    "openai": "3.1.0",
+    "twit": "2.2.11"
+  }
+}
